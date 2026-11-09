@@ -1,0 +1,10 @@
+@api = http://localhost:5000/api/productos
+
+### Listar
+GET {{api}}
+
+### 🧨 Demo "por qué modelar": esto se ACEPTA y no debería
+POST {{api}}
+Content-Type: application/json
+
+{ "id": 999, "nombre": "", "precio": -5, "stock": -3, "categoria": "monitr" }
